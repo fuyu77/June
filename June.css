@@ -410,7 +410,7 @@ html,
 body {
   font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   color: #666666;
-  font-size: 90%;
+  font-size: 96%;
   background-color: #ffffff;
 }
 a {
@@ -520,7 +520,7 @@ a.keyword {
   float: left;
 }
 #box2 {
-  width: 220px;
+  width: 240px;
   float: right;
 }
 
@@ -643,9 +643,7 @@ a.keyword {
 }
 /* entry-content の中の書式 */
 .entry-content {
-  font-size: 100%;
   line-height: 2.0;
-  padding-bottom: 5px;
 }
 .entry-content p {
   margin: 0 0 1.9em;
@@ -659,8 +657,8 @@ a.keyword {
 .entry-content h4,
 .entry-content h5,
 .entry-content h6 {
-  margin: 1.3em 0 0.8em 0;
-  line-height: 1.5;
+  line-height: 2.0;
+  margin: 1.3em 0 0.7em 0;
 }
 .entry-content h1 {
   font-size: 120%;
@@ -678,7 +676,7 @@ a.keyword {
   font-size: 110%;
 }
 .entry-content h6 {
-  font-size: 110%;
+  font-size: 100%;
 }
 .entry-content table {
   border-collapse: collapse;
@@ -698,12 +696,11 @@ a.keyword {
 }
 .entry-content blockquote {
   border: 1px solid #dddddd;
-  margin: 0 0 25px;
+  margin: 0 0 1.9em;
   padding: 5px 10px;
 }
 .entry-content blockquote p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 .entry-content pre {
   border: 1px solid #dddddd;
@@ -754,7 +751,7 @@ a.keyword {
   margin-bottom: 15px;
   padding: 0;
   font-size: 90%;
-  line-height: 2.0;
+  line-height: 1.8;
 }
 .comment-box li {
   padding: 10px 0 0 40px;
@@ -785,7 +782,7 @@ a.keyword {
   word-wrap: break-word;
 }
 .comment-content p {
-  margin-bottom: 13px;
+  margin-bottom: 14px;
 }
 .comment-metadata {
   font-size: 80%;
@@ -812,16 +809,17 @@ a.keyword {
 /* sidebar */
 #box2 {
   font-size: 85%;
-  line-height: 2.0;
+  line-height: 1.5;
   float: right;
   word-wrap: break-word;
 }
 .hatena-module {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .hatena-module-title {
+  font-size: 110%;
   font-weight: normal;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 .hatena-module-title a {
   color: #666666;
@@ -832,6 +830,7 @@ a.keyword {
 }
 /* Profile module */
 .hatena-module-profile .id a {
+  font-size: 105%;
   display: block;
   font-weight: normal;
   color: #666666;
@@ -850,12 +849,11 @@ a.keyword {
 */
 .hatena-urllist {
   list-style: none;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  margin: 0;
+  padding: 0;
 }
 .hatena-urllist li {
-  padding: 1px 0;
-  line-height: 2.0;
+  padding: 3px 0;
 }
 .hatena-urllist li a {
   text-decoration: none;
