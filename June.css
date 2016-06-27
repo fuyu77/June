@@ -678,6 +678,11 @@ a.keyword {
 .entry-content h6 {
   font-size: 100%;
 }
+ul,
+ol {
+  margin-bottom: 1.9em;
+  padding-left: 1.0em;
+}
 .entry-content table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -728,7 +733,7 @@ a.keyword {
   font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
 }
 .entry-content .hatena-asin-detail li {
-  line-height: 2.0;
+  line-height: 1.8;
 }
 /* entry-footer */
 .entry-footer {
