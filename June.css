@@ -127,6 +127,7 @@ dfn {
 h1 {
   font-size: 120%;
   margin: 0.67em 0;
+  border-bottom: solid 1px #666666;
 }
 /**
  * Address styling not present in IE 8/9.
@@ -408,7 +409,7 @@ th {
 /* Common */
 html,
 body {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   color: #666666;
   font-size: 96%;
   background-color: #ffffff;
@@ -653,9 +654,16 @@ a.keyword {
 }
 .entry-content h1,
 .entry-content h2,
-.entry-content h3,
+.entry-content h3 {
+  line-height: 2.0;
+  margin: 1.3em 0 0.7em 0;
+  border-bottom: solid 1px #666666;
+}
 .entry-content h4,
-.entry-content h5,
+.entry-content h5 {
+  line-height: 2.0;
+  margin: 1.5em 0 0.5em 0;
+}
 .entry-content h6 {
   line-height: 2.0;
   margin: 1.3em 0 0.7em 0;
