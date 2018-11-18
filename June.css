@@ -681,14 +681,13 @@ a.keyword {
   font-size: 110%;
 }
 .entry-content h5 {
-  font-size: 110%;
+  font-size: 100%;
 }
 .entry-content h6 {
   font-size: 100%;
 }
 ul,
 ol {
-  margin-bottom: 1.9em;
   padding-left: 1.0em;
 }
 .entry-content table {
@@ -902,7 +901,7 @@ ol {
 .hatena-module-search-box .search-module-button {
   width: 20px;
   height: 20px;
-  background: transparent url(http://blog.hatena.ne.jp/images/theme/search.png) no-repeat right center;
+  background: transparent url(https://cdn.blog.st-hatena.com/images/theme/search.png) no-repeat right center;
   border: none;
   outline: none;
   text-indent: -9999px;
@@ -996,53 +995,7 @@ ol {
 /* Media Queries - Retina Display */
 @media (-webkit-min-device-pixel-ratio: 2) {
   .hatena-module-search-box .search-module-button {
-    background: transparent url(http://blog.hatena.ne.jp/images/theme/search@2x.png) no-repeat right center;
+    background: transparent url(https://cdn.blog.st-hatena.com/images/theme/search@2x.png) no-repeat right center;
     background-size: 20px 20px;
   }
-}
-/* Media Queries - Tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-  #container {
-    width: 724px;
-  }
-  #main {
-    width: 460px;
-  }
-  #box2 {
-    width: 245px;
-  }
-}
-/* Media Queries - Small Tablet & Smartphone */
-@media (max-width: 767px) {
-  #globalheader-container {
-    position: static;
-  }
-  #container {
-    width: 93.75%;
-    word-wrap: break-word;
-    overflow: hidden;
-  }
-  #main {
-    width: 100%;
-    float: none;
-  }
-  #box2 {
-    width: 100%;
-    float: none;
-  }
-  #box2-inner {
-    width: 100%;
-  }
-  .hatena-module {
-    width: 100%;
-    float: none;
-  }
-  .entry-header-menu {
-    top: -30px;
-    left: 0px;
-  }
-}
-/* Media Queries - Smartphone */
-@media (max-width: 480px) {
-  
 }
