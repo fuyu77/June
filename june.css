@@ -716,7 +716,7 @@ ol {
 }
 .entry-content pre {
   border: 1px solid #dddddd;
-  margin: 0 0 10px;
+  margin: 0 0 1.5em;
   padding: 10px;
   font-size: 90%;
   white-space: pre;
