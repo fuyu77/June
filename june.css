@@ -24,7 +24,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   /* 2 */
-
 }
 /**
  * Remove default margin.
@@ -648,6 +647,9 @@ a.keyword {
 }
 .entry-content p {
   margin: 0 0 1.9em;
+}
+.entry-content p .footer {
+  margin: 0 0 1em;
 }
 .entry-content img {
   max-width: 100%;
