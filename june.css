@@ -648,9 +648,6 @@ a.keyword {
 .entry-content p {
   margin: 0 0 1.9em;
 }
-.entry-content p .footer {
-  margin: 0 0 1em;
-}
 .entry-content img {
   max-width: 100%;
 }
@@ -759,6 +756,10 @@ ol {
 .entry-footer-html {
   margin: 10px 0;
 }
+.entry-content .footnote p {
+  margin: 0 0 1em;
+  line-height: 2.0;
+}
 /* コメント */
 .comment-box ul {
   list-style: none;
@@ -790,7 +791,6 @@ ol {
   border-radius: 3px;
   background-clip: padding-box;
 }
-
 .comment-content {
   margin-bottom: 10px;
   word-wrap: break-word;
