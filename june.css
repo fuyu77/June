@@ -720,23 +720,24 @@ ol {
   font-size: 90%;
   white-space: pre;
   line-height: 1.4;
-  font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
+  font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
 }
 .entry-content pre > code {
   margin: 0;
   padding: 0;
   white-space: pre;
   border: 0;
-  font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
+  font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
 }
 .entry-content code {
+  color: #e01e5a;
   font-size: 90%;
   margin: 0 2px;
   line-height: 1.4;
   padding: 0 5px;
   border: 1px solid #dddddd;
   border-radius: 3px;
-  font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
+  font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
 }
 .entry-content .hatena-asin-detail li {
   line-height: 1.8;
