@@ -877,7 +877,7 @@ ol {
   color: #999999;
 }
 .urllist-title-link {
-  font-size: none;
+  font-size: initial;
 }
 /* Search module */
 .hatena-module-search-box .search-form {
