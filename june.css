@@ -686,11 +686,7 @@ a.keyword {
 .entry-content ul,
 .entry-content ol {
   padding-left: 1.0em;
-}
-.entry-content ul:last-child,
-.entry-content ol:last-child {
-  padding-left: 1.0em;
-  margin: 0 0 1.9em;
+  margin-block-end: 1.9em;
 }
 .entry-content table {
   border-collapse: collapse;
